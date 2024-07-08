@@ -57,12 +57,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{base_url}}/pt/showUsers/mi",
+							"raw": "{{base_url}}/ptResolution/showUsers/mi",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
-								"pt",
+								"ptResolution",
 								"showUsers",
 								"mi"
 							]
@@ -85,12 +85,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{base_url}}/pt_resolution/deleteUser",
+							"raw": "{{base_url}}/ptResolution/deleteUser",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
-								"pt_resolution",
+								"ptResolution",
 								"deleteUser"
 							]
 						}
@@ -112,12 +112,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{base_url}}/pt_resolution/insertUser",
+							"raw": "{{base_url}}/ptResolution/insertUser",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
-								"pt_resolution",
+								"ptResolution",
 								"insertUser"
 							]
 						}
