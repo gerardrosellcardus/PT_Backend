@@ -40,13 +40,44 @@
 					"response": []
 				},
 				{
+					"name": "showFilteredUsers",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/pt/showUsers/mi",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"pt",
+								"showUsers",
+								"mi"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "deleteUser",
 					"request": {
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"username\": \"user1\"\n}",
+							"raw": "{\n    \"username\": \"phil\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -73,7 +104,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"username\": \"user4\",\n    \"position\": \"cloud developer\"\n}",
+							"raw": "{\n    \"username\": \"rose\",\n    \"position\": \"cloud developer\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
